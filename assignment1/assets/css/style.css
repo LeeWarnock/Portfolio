@@ -217,30 +217,38 @@ input[type=submit] {
 }
 
 /* Phones */
-@media screen (min-width : 640px) and (max-width: 767px) {
+@media (min-width : 640px) and (max-width: 767px) {
 
 }
 
 /* Tablets */
-@media screen (min-wisdth:768px) and (max-width: 979) {
+@media (min-width:768px) and (max-width: 980px) {
+.main-section, .sidebar {
+	margin: 0 10% 0 10%;
+	font-size: 100%;
+	margin: 0 10%;
+    position: relative;
+    display: inline-block;
+	}
 .main-section {
-	padding-top: 130px;SS
-	display: block;
-	clear: both;
-	float: none;
-	margin: 0 auto;
-	background-color: #8A2BE2;
-	font-size: 300px
+	float: left;
+	width: 40%;
+	max-width: 650px;
+}
+.sidebar {
+	float: left;
+}
 }
 
 /* Compys */
-@media screen (min-width:980x) {
+@media (min-width:981px) {
 .main-section {
-	width: 30%;
-	padding-top: 90px;
-	display: block;
-	clear: both;
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 650px;
 	float: left;
-	margin: 0 auto;
+	border: 1px solid #ddd;
 }
 
