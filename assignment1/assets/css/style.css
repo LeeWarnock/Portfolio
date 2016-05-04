@@ -21,6 +21,11 @@ html, body {
 	height: 100%;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important; 
@@ -68,14 +73,14 @@ h1, h2, h3 {
 	color: #4aaaa5;
 }
 h1 {
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 49px;
 	border-bottom: 3px solid #ddd;
 	padding-bottom: 20px;
 }
 h2,
 h3 {
-	font-size: 22px;
+	font-size: 24px;
 }
 
 /*header*/
@@ -210,3 +215,32 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+/* Phones */
+@media screen (min-width : 640px) and (max-width: 767px) {
+
+}
+
+/* Tablets */
+@media screen (min-wisdth:768px) and (max-width: 979) {
+.main-section {
+	padding-top: 130px;SS
+	display: block;
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	background-color: #8A2BE2;
+	font-size: 300px
+}
+
+/* Compys */
+@media screen (min-width:980x) {
+.main-section {
+	width: 30%;
+	padding-top: 90px;
+	display: block;
+	clear: both;
+	float: left;
+	margin: 0 auto;
+}
+
